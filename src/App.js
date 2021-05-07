@@ -25,6 +25,8 @@ function App() {
       setDate(new Date());
      }
      
+
+     
    const [city, setCity] = useState('delhi');
    const [weatherdata, setWeatherData] = useState();
    const baseUrl = 'http://api.openweathermap.org/data/2.5/weather?';
